@@ -15,6 +15,7 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 ```sh
 Чтобы запустить проект, нужно открыть терминал в вашей IDE и прописть команды:
 npm install
+npm run dev
 ```
 
 ### Compile and Hot-Reload for Development
