@@ -60,3 +60,44 @@
     display: flex;
     justify-content: center;
   }
+  .table__button-del{
+    cursor: pointer;
+    padding: 0;
+    position: absolute;
+    left: 1%;
+    width: 30px;
+    height: 100%;
+    background-color: rgb(255, 103, 103,0.2);;
+    border: none;
+    border-radius: 4px;
+    transition: ease-in-out 0.2s;
+  }
+  
+  .table__button-del:hover{
+    transition: ease-in-out 0.2s;
+    background-color: rgb(255, 103, 103,0.4);;
+  }
+  
+  @media (max-width: 720px){
+    .table__button-del{
+    top: 25%;
+    left: 1%;
+    width: 30px;
+    height: 50%;
+  }
+  }
+  @media (max-width: 660px){
+    .table__box{
+   font-size: 11px;
+   }
+  }
+  
+  
+  @media (max-width: 550px){
+    .table__button-del{
+    top: 25%;
+  
+    width: 10px;
+    height: 50%;
+  }
+  }
