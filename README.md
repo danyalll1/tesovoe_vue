@@ -1,4 +1,5 @@
 # Vue3Charts
+![image](https://github.com/danyalll1/tesovoe_vue/assets/116565339/8bad4ab8-1fe2-40fd-980d-1b43a316adc0)
 
 This template should help get you started developing with Vue 3 in Vite.
 
