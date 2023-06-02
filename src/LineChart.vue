@@ -1,8 +1,8 @@
 <template>
-    <Line id="my-chart-id" :data="chartData" :options="chartOptions" />
-  </template>
+    <Line id="my-chart-id" :data="props.chartData" :options="chartOptions"/>
+</template>
   
-  <script>
+  <script setup>
   import {
     Chart as ChartJS,
     CategoryScale,
@@ -14,8 +14,9 @@
     Legend
   } from 'chart.js'
   import { Line } from 'vue-chartjs'
+ 
   
-  ChartJS.register(
+    ChartJS.register(
     CategoryScale,
     LinearScale,
     PointElement,
@@ -27,23 +28,22 @@
   
 
 
+  const props = defineProps({
+    chartData: Object,
+    chartOptions: Object
+  })
   
-  export default {
-    name: 'LineChart',
-    components: {
-      Line
-    },
-    props: {
-   
-   chartData: {
-     type: Object,
-     required: true
-   },
-   chartOptions: {
-     type: Object,
-     default: () => {}
-   },
- },
-  }
+ 
+  
+
+
+  
+  
+  
+
+ 
+
+ 
+  
   </script>
   

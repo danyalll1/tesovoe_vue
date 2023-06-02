@@ -6,7 +6,7 @@
       "debit": 1900,
       "credit": 2100,
       "average": 0.04951,
-      "count" : 35
+      "count" : 15
     },
     {
         "id": "2",
@@ -24,24 +24,24 @@
       "debit": 1000,
       "credit": 1000,
       "average": 0.04951,
-      "count" : 34
+      "count" : 40
     },
     {
         "id": "4",
       "date": "20",
       "cash": 5000,
-      "debit": 1000,
-      "credit": 1000,
+      "debit": 1500,
+      "credit": 1200,
       "average": 0.04951,
-      "count" : 34
+      "count" : 29
     },
     {
         "id": "5",
       "date": "21",
       "cash": 1000,
       "debit": 1000,
-      "credit": 1000,
+      "credit": 2000,
       "average": 0.04951,
-      "count" : 34
+      "count" : 20
     }
 ]
