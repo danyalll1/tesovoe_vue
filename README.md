@@ -13,6 +13,7 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 ## Project Setup
 
 ```sh
+Чтобы запустить проект, нужно открыть терминал в вашей IDE и прописть команды:
 npm install
 ```
 
